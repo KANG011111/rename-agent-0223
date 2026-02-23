@@ -1,0 +1,42 @@
+# 測試圖片與輸出結果（不推送）
+compress/
+done-compress/
+test_files/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+dist/
+*.tsbuildinfo
+
+# IDE / 編輯器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 環境變數與機敏資訊
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+config/secrets.json
+
+# 測試覆蓋率
+coverage/
+.nyc_output/
+
+# 暫存檔
+*.tmp
+*.temp
